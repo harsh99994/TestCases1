@@ -1,0 +1,24 @@
+# SwiftLint Rules:
+disabled_rules: # rule identifiers turned on by default to exclude from running
+  - colon
+  - comma
+  - control_statement
+  - empty_parameters
+  - vertical_whitespace
+  - trailing_whitespace
+
+force_cast: warning
+force_try:
+  severity: warning
+
+# paths to ignore during linting
+excluded:
+  - Pods
+
+line_length: 300
+
+cyclomatic_complexity:
+    warning: 15
+    error: 25
+
+reporter: "xcode"
