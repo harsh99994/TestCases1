@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         let ferrari = CarsWay(type: .sport, transmissionMode: .drive)
         ferrari.start(minutes: 120)
         print(ferrari.miles)
+        print("hello")
     }
 
     @IBAction func b1(_ sender: Any) {
