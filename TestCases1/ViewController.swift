@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-
+        //////// what have we done 
         let ferrari = CarsWay(type: .sport, transmissionMode: .drive)
         ferrari.start(minutes: 120)
         print(ferrari.miles)
