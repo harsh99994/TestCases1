@@ -71,5 +71,5 @@ jobs:
         run: |
          echo "Starting upload. "
          ls ~/private_keys
-         xcrun altool --validate-app -f /Users/cobemacmini/ios-runner/_work/_temp/export/EccoShoes.ipa -t ios --apiKey ${{ secrets.APPSTORE_API_KEY_ID
-         xcrun altool --upload-app -f /Users/cobemacmini/ios-runner/_work/_temp/export/EccoShoes.ipa -t ios --apiKey "${{ secrets.APPSTORE_API_KEY_ID}
+         xcrun altool --validate-app -f /Users/cobemacmini/ios-runner/_work/_temp/export/EccoShoes.ipa -t ios --apiKey ${{secrets.APPSTORE_API_KEY_ID}}
+         xcrun altool --upload-app -f /Users/cobemacmini/ios-runner/_work/_temp/export/EccoShoes.ipa -t ios --apiKey "${{secrets.APPSTORE_API_KEY_ID}}
