@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Run Unit and UI Tests
-        run: /usr/bin/xcodebuild test -workspace "TestCases1.xcworkspace" -scheme "$XC_SCHEME" -destination 'platform=iOS Simulator,name=iPhone 14'
+        run: /usr/bin/xcodebuild test -workspace "TestCases1.xcworkspace" -scheme "TestCases1" -destination 'platform=iOS Simulator,name=iPhone 14'
       - name: Install the Apple certificate and provisioning profile
         env:
           BUILD_CERTIFICATE_BASE64: ${{ secrets.BUILD_CERTIFICATE_BASE64 }}
