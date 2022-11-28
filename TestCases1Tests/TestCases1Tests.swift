@@ -16,9 +16,9 @@ class TestCases1Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        ferrari = CarsWay(type: .Sport, transmissionMode: .Drive)
-        jeep = CarsWay(type: .OffRoad, transmissionMode: .Drive)
-        honda = CarsWay(type: .Economy, transmissionMode: .Park)
+        ferrari = CarsWay(type: .sport, transmissionMode: .drive)
+        jeep = CarsWay(type: .offRoad, transmissionMode: .drive)
+        honda = CarsWay(type: .economy, transmissionMode: .park)
     }
 
     override func tearDownWithError() throws {
